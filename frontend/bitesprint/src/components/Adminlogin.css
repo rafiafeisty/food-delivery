@@ -1,0 +1,22 @@
+.admin-page{
+    min-height: 80vh;
+    margin-top: 130px;
+}
+.admin-head{
+    color:#3b626e;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.admin-card{
+    width:30%;
+    margin-top: 40px;
+}
+.admin-card-body{
+    height:300px;
+    width:auto;
+}
+@media (max-width: 600px) {
+    .admin-card{
+        width:70%;
+    }
+}

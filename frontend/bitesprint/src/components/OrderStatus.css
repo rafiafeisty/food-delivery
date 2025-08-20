@@ -1,0 +1,16 @@
+.orderstatus-page{
+    min-height: 70vh;
+    margin-top: 130px;
+}
+.order-head{
+    color:#3b626e;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.order-style{
+    background-color: #90EE90;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top:10px;
+    width:20%;
+}

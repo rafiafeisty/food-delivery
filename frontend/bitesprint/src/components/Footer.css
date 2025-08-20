@@ -1,0 +1,11 @@
+.footer{
+    height:90px;
+    width:100%;
+    background-color: #3b626e;
+    position: relative;
+    margin-top: 20px;
+    color: white;
+}
+.footer-content{
+    padding-top: 20px;
+}

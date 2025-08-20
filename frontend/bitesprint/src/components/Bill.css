@@ -1,0 +1,88 @@
+.bill-page {
+    min-height: 70vh;
+    margin-top: clamp(80px, 10vw, 100px);
+    font-family: Arial, sans-serif;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+
+.bill-head {
+    color: #3b626e;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-weight: 600;
+    text-align: center;
+}
+
+.payment {
+    width: min(90%, 600px);
+    margin: auto;
+    margin-top: clamp(20px, 5vw, 30px);
+    padding: clamp(10px, 3vw, 15px);
+    border-radius: 15px;
+    background: white;
+}
+
+.form-group input {
+    width: 100%;
+    margin: clamp(10px, 2vw, 15px) 0;
+    border-radius: 8px;
+    padding-left: 8px;
+    border: 1px solid black;
+    height: clamp(35px, 5vw, 38px);
+    box-sizing: border-box;
+}
+
+.form-group1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: clamp(8px, 2vw, 10px);
+    margin-bottom: 10px;
+}
+
+.form-group1 input {
+    flex: 1;
+    min-width: 120px;
+    border-radius: 8px;
+    padding-left: 8px;
+    border: 1px solid black;
+    height: clamp(35px, 5vw, 38px);
+    box-sizing: border-box;
+}
+
+.button {
+    margin-top: clamp(15px, 3vw, 20px);
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .payment {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .bill-head {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+
+    .form-group1 {
+        flex-direction: column;
+    }
+
+    .form-group1 input {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .bill-page {
+        margin-top: clamp(60px, 8vw, 80px);
+        padding: 0 4%;
+    }
+
+    .form-group input,
+    .form-group1 input {
+        height: clamp(30px, 6vw, 35px);
+    }
+}
